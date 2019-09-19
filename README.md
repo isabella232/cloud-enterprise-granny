@@ -1,15 +1,20 @@
-SAP HANA Cloud Platform Samples - enterprise granny
+
+![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)
+
+# Important Notice
+SAP has decided to stop the maintenance of this open source project and hence it'll soon be sunsetted and archived. 
+
+Going forward, please look at [SAP Cloud Platform Appliation Programming Model](https://cap.cloud.sap) as the recommended approach to develop cloud applications with SAP Cloud Platform. 
+
+
+SAP Cloud Platform Samples - enterprise granny
 ========
 
 <p align="center">
   <img src="/doc/ensw_granny_logo_web.png" width="25%">
 </p>
 
-Enterprise Granny is a sample application used to demonstrate how-to develop great cloud applications with the SAP HANA Cloud Platform. Step by step we will enhance this simple demo app and make it _enterprise-ready_ by using open source software and by leveraging some of the capabilities of the platform.
-
-<p align="center">
-[![Introduction video](http://img.youtube.com/vi/t1rZDX-0PQI/0.jpg)](https://www.youtube.com/watch?v=t1rZDX-0PQI)
-<p align="center">
+Enterprise Granny is a sample application used to demonstrate how-to develop great cloud applications with the SAP Cloud Platform. Step by step we will enhance this simple demo app and make it _enterprise-ready_ by using open source software and by leveraging some of the capabilities of the platform.
 
 **Note:** The initial source code is a fork of the original [Granny's Addressbook](https://github.com/osintegrators/JavaSpringGranny) application provided by Open Software Integrators. 
 
@@ -37,7 +42,7 @@ Please also remember to adjust the declared services within the [`manifest.yml`]
 
 > **NOTE:** If you intend to deploy this application to a Cloud Foundry landscape provided by SAP or its partners in order to leverage the capabilities of the SAP HANA database platform you need to manually provide the HANA JDBC driver (`ngdbc.jar`) within the [`WEB-INF/lib`](enterprise-granny-service/src/main/webapp/WEB-INF/lib) folder. 
 
-> **NOTE:** Please note that the application does not run on the Java EE 6 Web profile (2.x) runtime on SAP HANA Cloud Platform due to class loading conflicts with the out-dated javax.validation version used by this runtime! 
+> **NOTE:** Please note that the application does not run on the Java EE 6 Web profile (2.x) runtime on SAP Cloud Platform due to class loading conflicts with the out-dated javax.validation version used by this runtime! 
 
 Table of Content
 -----------
@@ -60,7 +65,7 @@ Table of Content
 Versioning
 ----------
 
-For transparency and insight into our release cycle, and for striving to maintain backward compatibility, the SAP HANA Cloud Platform -Samples project will be maintained under the Semantic Versioning guidelines as much as possible.
+For transparency and insight into our release cycle, and for striving to maintain backward compatibility, the SAP Cloud Platform - Samples project will be maintained under the Semantic Versioning guidelines as much as possible.
 
 Releases will be numbered with the following format:
 
